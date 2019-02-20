@@ -1,0 +1,132 @@
+* {box-sizing: border-box }
+body {
+    background-color: #0064CE;
+    background: linear-gradient(to bottom, #0064CE 87%, #001933);
+    color: #444;
+    font: 400 1em/1.5 /*open sans hér ef maður vill, samsett skipun wight/height size family*/
+}
+/*grid*/
+.col-2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right*/
+    padding: 0;
+}
+.beige, .beige2 {
+    background-image: linear-gradient(to top, #F7D37E,  #f6f1d3);
+    padding: 1em;
+}
+.beige2 {
+    height: 100vh;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+header h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 2em 0 1em 0;
+}
+.topnav{
+    margin-top: 6.5em;
+    display: flex;
+    justify-content: flex-end;
+}
+.topnav a{
+    display: block;
+    color:#ffff;
+    text-decoration: none;
+    padding: 0 0 0 3em;
+    text-transform: uppercase;
+}
+.verkefni {
+    text-align: right;
+    color: #F7D37E;
+}
+.copy {
+    color: #fff;
+    text-align: center;
+}
+blockquote {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+}
+footer {
+    color: #fff;
+}
+footer a {
+    color:#fff;
+    text-decoration: none;
+}
+footer a:visited {
+    color: antiquewhite;
+}
+footer li {
+    list-style-type: none;
+    padding-bottom: .2em;
+}
+.innermenu {
+    background-color: #0064CE;
+    display: flex;
+    justify-content: center;
+}
+.innermenu a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: .4em 1.2em;
+    border-right: 1px solid #ffffff;
+}
+.innermenu a:last-child{
+    border: none;
+}
+.innermenu a:hover, innernmenu a:active {
+    color: #0064CE;
+    background-color: #F7D37E;
+}
+.topbutt {
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #0064ce;
+    font-size: 2.5em;
+    display: block;
+    position: fixed;
+    bottom: 2em;
+    right:2em;
+    width: 1.5em;
+    padding: 0.2em;
+}
+topbutt:active .topbutt:hover {
+    background-color: #0064ce;
+    color: #fff;
+}
+.R-1em {
+    padding: 1em;
+}
+.pl-2em {
+    padding-left: 2em;
+}
+a {
+    color: #0064ce;
+}
+blockquote a {
+    line-height: 1.7;
+}
+blockquote ul {
+    list-style-type: none;
+}

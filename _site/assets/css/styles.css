@@ -1,2 +1,24 @@
+@charset "UTF-8";
 .current {
   color: green; }
+
+body {
+  background-color: #0064CE;
+  background: linear-gradient(to bottom, #0064CE 87%, #001933);
+  color: #444;
+  font: 400 1em/1.5; }
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.container {
+  max-width: 60em;
+  /*960px = fartölvur*/
+  margin: 0 auto;
+  /* top+bottom og left+right*/
+  padding: 0; }
+
+.beige, .beige2 {
+  background-image: linear-gradient(to top, #F7D37E, #f6f1d3);
+  padding: 1em; }
